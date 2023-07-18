@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider (lesson 8)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="slideshow-container">
+        <div class="slide fade">
+            <div class="slide-index">1/3</div>
+            <img src="img/slide1.jpg" style="width: 100%;">
+            <div class="slide-text">Observation deck</div>
+        </div>
+
+        <div class="slide fade">
+            <div class="slide-index">2/3</div>
+            <img src="img/slide2.jpg" style="width: 100%;">
+            <div class="slide-text">Rivers</div>
+        </div>
+
+        <div class="slide fade">
+            <div class="slide-index">3/3</div>
+            <img src="img/slide3.jpg" style="width: 100%;">
+            <div class="slide-text">Mountains</div>
+        </div>
+
+        <button class="prevent-btn">&#10094</button>
+        <button class="next-btn">&#10095</button>
+
+        <div class="slider-dots">
+            <span class="current-slide fade" data-index="1"></span>
+            <span class="current-slide fade" data-index="2"></span>
+            <span class="current-slide fade" data-index="3"></span>
+        </div>
+   </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
